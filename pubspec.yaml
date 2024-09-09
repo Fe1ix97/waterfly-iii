@@ -40,11 +40,16 @@ dependencies:
   flutter_email_sender: ^6.0.2
   local_auth: ^2.1.8
   dynamic_color: ^1.7.0
-  material_color_utilities: ^0.8.0
+  material_color_utilities: ^0.11.1
   version: ^3.0.2
   quick_actions: ^1.0.7
   stock: ^1.1.0
-  syncfusion_flutter_charts: ^26.1.35
+  #  syncfusion_flutter_charts: ^26.1.35
+  syncfusion_flutter_charts:
+    git:
+      url: https://github.com/Luvti/flutter-widgets
+      path: packages/syncfusion_flutter_charts
+      ref: 15e3c4a95e3cf2e2393755bf5aa11c0206ed6dea #flutter/3.24
   image_picker: ^1.0.7
   timezone: ^0.9.4
   flutter_timezone: ^2.0.0
