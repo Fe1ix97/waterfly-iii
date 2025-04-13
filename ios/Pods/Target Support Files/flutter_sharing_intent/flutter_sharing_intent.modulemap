@@ -1,0 +1,6 @@
+framework module flutter_sharing_intent {
+  umbrella header "flutter_sharing_intent-umbrella.h"
+
+  export *
+  module * { export * }
+}
